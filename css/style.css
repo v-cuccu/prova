@@ -1,0 +1,156 @@
+/*GENERALE*/
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+  height: 4.375em;
+  width: 100%;
+  background: #6A91B7;
+  padding: 1em;
+  position: relative;
+}
+
+i{
+  color: white;
+}
+
+.link{
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: baseline;
+}
+
+span{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+}
+
+/*PAGINA*/
+main{
+  height: calc(100% - 200px);
+  width: 100%;
+}
+
+article{
+  height: 100%;
+  width: 85%;
+  float: left;
+  overflow: auto;
+}
+
+.wrapper {
+    margin: 50px;
+    text-align: center;
+}
+
+.bts div {
+    display: inline-block;
+    padding: 0px 5px;
+    vertical-align: top;
+}
+
+img{  
+   width: 170px;
+   margin-bottom: 25px;
+}
+
+.desc-top {
+    height: 132px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+/*SIDEBAR*/
+sidebar{
+  height: 100%;
+  width: 15%;
+  background: #F5F5F5;
+  float: right;
+  padding: 15px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.nav, li{
+  list-style-type: none;
+  margin: 1.3px;
+  padding: 0;
+}
+
+.principale{
+  font-size: 0.9675em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.principale a{
+  color: #204263;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #204263;
+  font-family: sans-serif;
+  font-size: 0.975em;
+  text-decoration: none;
+  transition: text-decoration 250ms ease-in-out;
+}
+
+.principale a:hover{
+  text-decoration: underline;
+}
+
+ul ul{
+  margin-left: -20px;
+  font-family: sans-serif;
+  font-size: 0.905em;
+}
+
+ul ul a{
+  text-decoration: none;
+  color: black;
+  transition: font-weight 100ms ease-in-out;
+}
+
+ul ul a:hover{
+  font-weight: bold;
+}
+
+/*FOOTER*/
+footer{
+  height: 8.125em;
+  width: 100%;
+  background: #2C5276;
+}
+
+footer a{
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-right: 7px;
+  transition: font-weight 75ms ease-in-ease-out;
+}
+
+footer a:hover{
+  font-weight: bold;
+}
+
+footer .row{
+  margin-bottom: 7px;
+}
+
+footer .contatti{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
